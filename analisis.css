@@ -1,0 +1,37 @@
+.body
+{
+    min-height: 100%;
+    position:fixed;
+}
+.texto
+{
+    text-align: left;
+}
+.imagen
+{
+    text-align: left;
+    padding: 4px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+.definicion
+{
+    width: 700px;
+    height: 100px;
+    padding: 4px;
+    padding-left: 100px;
+    padding-right: 10px;
+    text-align: justify;
+}
+.def
+{
+    
+    padding-left: 100px;
+    padding-right: 10px;
+    text-align: justify;
+
+}
+.vinculo
+{
+    color: rgb(193, 253, 255);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+		<title>Análisis</title>
+		<link href = "analisis.css" rel="stylesheet" type="text/css">
+        <link href ="estilos.css" rel="stylesheet" type="text/css">
+        <link href ="ingresar.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="logo_ml.png">
+	</head>
+	<body>
+        <div class="texto">
+            <h1 class = "titulo" class="def">Análisis</h1>
+            <h2 class ="def">¿Qué es Teachable Machine?</h2>
+            <p class = "definicion">
+                Teachable Machine es una herramienta de IA desarrollada por Google y basada en la web, su principal propósito es hacer que la creación de modelos de aprendizaje automático sea rápida, fácil y accesible para todos. Con esta herramienta podrás preparar a un ordenador para que reconozca imágenes, sonidos y posturas. Sin embargo, la mayoría de las personas que acceden a esta herramienta no entienden el proceso que se lleva a cabo detrás de la acción y resultados obtenidos al utilizarlo.
+            </p>
+            <p class="definicion">
+                Esta plataforma es una creación de 'Creative Lab', 'Stoj', 'Use All Five' y 'PAIR' en Google. La red neuronal está construida con un código abierto de 'deeplearn.js', con la que se invita a los desarrolladores a entrenar y ejecutar nuevos modelos.
+                <br>
+                Si deseas más información acerca de este proyecto puedes consultarlo en: <a class="vinculo" href="https://teachablemachine.withgoogle.com/"> Proyecto Teachable Machine de Google</a>  
+            </p>
+        </div>
+        <div class="texto">
+            <h2 class="def">Modelo de clasificación empleando redes neuronales</h2>
+            <p class="definicion">
+                El objetivo principal de una red neruonal es tratar de encontrar la relación entre las características de un conjunto de datos. Su estructura consiste en un grupo de algoritmos que imitan el trabajo del cerebro humano.</br>
+                Una <strong>"neurona"</strong> en una red neuronal es una función matemática que recopila y clasifica información de acuerdo con una arquitectura específica.
+            </p>
+            <h3 class="def">Modelo visual de una red neuronal</h3>
+            <img rel="url" href="URL" class="imagen" src="https://upload.wikimedia.org/wikipedia/commons/6/64/RedNeuronalArtificial.png">
+        </div>
+        <div>
+            <h2 class="def">Perceptrón</h2>
+            <p class="definicion">
+                Un Perceptrón es un modelo matemático inspirado en una estructura y función simplificadas de una única neurona biológica. Es una sección de Machine Learning que se utiliza para entender el concpeto de clasificadores binarios.
+                <br>
+                Forman parte del sistema de redes neuronales. De hecho, se puede decir que el perceptrón y las redes neuronales están interconectados. El perceptrón constituye el fundamento básico de la red neuronal que forma parte del Deep Learning. Se considera como bloques de construcción de una sola capa de la red neuronal.
+            </p>
+        </div>
+        <br>
+        <div class="texto">
+            <h2 class="def">Partes</h2>
+            <ul class="definicion">
+                <li><strong>Entrada: </strong>Las entradas del algoritmo del perceptrón se entienden como x1, x2, x3, x4 y así sucesivamente. Todas estas entradas denotan los valores del perceptrón de características y la ocurrencia total de las características.</li>
+                <li><strong>Pesos: </strong>Se observan como valores que se planifican a lo largo de la sesion de preparación del perceptrón. Los pesos ofrecen un valor preliminar en el inicio del aprendizaje del algoritmo. Con la ocurrencia de cada inexactitud de entrenamiento, los valores de los pesos se actualizan.</br> Estos se representan principalmente como w1, w2, w3, w4 y así sucesivamente.</li>
+                <li><strong>Funcion de activacion: </strong> Cada función de activación, lineal o no lineal, toma un único número y una determinada operación matemática fija sobre él. </li>
+                <li><strong>Suma ponderada: </strong> Es la prolifreación de cada valor de entrada o característica asociada con el valor de paso correspondiente. </li>
+                <li><strong>Salida:</strong> La suma ponderada se pasa a la función de activación y cualquier valor que obtengamos después del cálculo es nuestra salida predicha. </li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3 class="def">Partes</h3>
+            <img src="perceptron.jpg" class="def">
+            <p class="definicion">Cuando los elementos de diferentes categorías pueden ser separadas por una sola línea sin que estos se mezclen entre sí. El perceptrón puede ser visto como una red neuronal artificial de una sola neurona (por eso se dice que el perceptrón es unicapa). <br> 
+            A continuación te presentamos la separación lineal del grupo azul y del grupo rojo, como se dijo arriba, el perceptrón solamente puede hacer esta división, por ello, no es tan exacto; pues aún cabe la posibilidad de que elementos de un grupo crucen la línea del grupo contrario. 
+            </p> <br>
+            <img src="partirdatos.jpg" class="def">
+        </br>
+        </div>
+        <div class="texto">
+            <h2 class="def"> Implementación en Scikit Learn </h2>
+            <img src="analisis lineal.jpg" class="def">
+            <h2 class="def"> ¿Cómo lo realiza el programa? </h2>
+            <h3 class="def"> Libreria TensorFlow.js </h3>
+            <p class="definicion">
+                TensorFlow.js es una biblioteca de aprendizaje automático de código abierto que puede ejecutarse en cualquier lugar donde JavaScript pueda hacerlo. Se basa en la biblioteca TensorFlow de Python. La función de esta biblioteca es facilitar la computación numérica y el Machine Learning a gran escala. TensorFlow reúne una serie de modelos y algoritmos de  Deep Learning, para poder entrenar y ejecutar redes neuronales profundas para la clasificación de dígitos escritos a mano, el reconocimiento de imágenes, la incrustación de palabras, las redes neuronales recurrentes, los modelos secuencia a secuencia para la traducción automática, el procesamiento del lenguaje natural (PLN o NLP) y las simulaciones basadas en ecuaciones diferenciales parciales.
+            </p>
+            <br>           
+        <div class="texto">
+            <h3 class="def"> Transfer Learning </h3>
+            <p class="definicion"> <strong> Transferir el aprendizaje implica tomar el conocimiento que ya se ha aprendido para ayudar a aprender algo similar</strong>
+            Los humanos hacemos esto todo el tiempo. Tiene toda una vida de experiencias contenidas en su cerebro que puede usar para ayudarlo a reconocer cosas nuevas que nunca antes ha visto. Por ejemplo este sauce: 
+            </p> 
+            <img src="sauce.jpg" class="def">
+            <p class="definicion"> Dependiendo de  en que parte del mundo se encuentre, existe la posibilidad de que no haya visto este tipo de árbol antes. Sin embargo, si le pido que me diga que si hay un algún sauce en la siguiente imágen, probablemente pueda detectarlos bastante rápido, aunque estén en un ángulo diferente al primero que se mostró. </p>
+            <img src="bosque.jpg" class="def">
+            <p class="definicion"> Esto sucede porque en su cerebro existen un montón de neuronas que saben como identificar objetos con forma de árbol y otras neuronas que son buenas para encontrar largas líneas rectas. Puede reutilizar este conocimiento para clasificar rápidamente un sauce, que es un objeto similar a un árbol que tiene muchas ramas verticales largas y rectas. </br>
+                De manera similar, si tiene un modelo de aprendizaje automático que ya está entrentado en un dominio, como el reconocimiento de imágenes, puede utilizarlo para realizar una tarea diferente pero relacionada. <br>
+                Puede hacer lo mismo con un modelo avanzado como MobileNet, que es un modelo de investigación muy popular que puede realizar el reconocimiento de imágenes en mil tipos de objetos diferentes. Desde perros hasta automóviles, se entrenó en un enorme conjunto de datos conocido como ImageNet que tiene millones de imágenes etiquetadas.
+            </p>
+        </br>
+        <br>
+        <br>
+        </div>
+        </div>   
+        <br>
+        <br>
+        <div class="texto">
+        <img src="tensorflow.png" class="def">
+        <p class="def"> <strong> El acto de hacer esto se conce como tranferencia de aprendizaje y es lo que hace Teachable Machine detrás de escena. </strong></p>
+        <h2 class="def">Perceptrón y Redes Neuronales </h2>
+        <p class="definicion">
+            También puede ver que al solo tener que entrenar al perceptron multicapa al final de la red, se entrena mucho más rápido que si tuviera que entrenar toda la red desde cero.
+            En resumidas cuentas, una red neuronal es un conjunto de perceptrones interconectados. Su funcionamiento se basa en operaciones de multiplicación de dos componentes importantes: la entrada de datos (input) y el peso.
+            </br>
+            La suma de esa multiplicación se transmite a una función de activación, que determina un valor binario (0 o 1). Esto permite clasificar datos de forma precisa.
+        </p>
+        <div class="texto">
+            <br>
+        </div>
+        </div>
+    </body>
+</html>

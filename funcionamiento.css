@@ -1,0 +1,56 @@
+body
+{
+    background-color:#261f33;
+    font-family: Helvetica;
+}
+.titulo
+{
+    color:rgb(21, 255, 235);
+    text-align: center;
+    background-color: #212a4e;
+    
+}
+.texto
+{
+    color:rgb(253, 253, 253);
+    text-align: justify;
+    width: 550px;
+    height: 500px;
+    padding-left: 390px;
+    padding-right: 10px;
+}
+.explicacion
+{
+    width: 500px;
+    height: 40px;
+    padding: 4px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.uso
+{
+    width: 500px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: medium;
+}
+.instrucciones
+{
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.pantallazos
+{
+    
+    background-color: #212a4e;
+    color:rgb(21, 255, 235);
+    text-align: center;
+    padding: none;
+}
+.evidencias
+{
+    padding-left: 50px;
+    text-align: left;
+}

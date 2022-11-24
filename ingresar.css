@@ -1,0 +1,74 @@
+body
+{
+    background-color:#261f33;
+    font-family: Helvetica;
+    text-align: center;
+    color:white;
+}
+.imagenes
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.audio
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.posturas
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.start
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.empezar
+{
+
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+    
+}

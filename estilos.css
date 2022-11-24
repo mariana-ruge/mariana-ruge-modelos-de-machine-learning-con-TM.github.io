@@ -1,0 +1,65 @@
+body
+{
+    background-color:#261f33;
+    color: #66fcf1;
+    font-family: Helvetica;
+    text-align: center;
+}
+.titulo
+{
+    color:rgb(21, 255, 235);
+    text-align: center;
+    background-color: #212a4e;
+}
+.realizado
+{
+    color:rgb(21, 255, 224);
+    text-align: left;
+    padding-left: 390px;
+}
+.nombres
+{
+    padding-left: 390px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+}
+.ingresar
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 243);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.proceso
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color:rgb(187, 246, 248);;
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+.analisis
+{
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border-color: rgb(187, 248, 248);
+    text-align: center;
+    background-color: rgb(208, 255, 243);
+    cursor: pointer;
+}
+
